@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List WebApp</title>
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>To-Do List</h1>
+      <div class="task">
+        
+        <input type="text" placeholder="Add new task">
+      </div>
+      <div class="control">
+        <div class="filter">
+          <span class="active" id="total">All</span>
+          <span id="pending">Pending</span>
+          <span id="finished">finished</span>
+        </div>
+        <button class="clear">Clear All</button>
+      </div>
+      <ul class="box"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

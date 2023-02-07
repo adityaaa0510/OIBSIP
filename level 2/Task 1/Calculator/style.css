@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+
+    color: rgba(218, 30, 193, 0.23);
+}
+
+body {
+    background-color: rgb(188, 89, 245);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.calculate {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 30px rgb(228, 129, 129);
+}
+h2 {
+    text-align: center;
+    }
+
+#display {
+    margin: 0 20px;
+    height: 160px;
+    width: auto;
+    max-width: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 35px;
+    margin-bottom: 25px;
+    overflow-x: scroll;
+  }
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 10px;
+}
+
+button {
+    height: 55px;
+    width: 55px;
+    border: 0;
+    border-radius: 45px;
+    margin: 8px;
+    font-size: 18px;
+    cursor: pointer;
+  
+}
+
+
+button#isequal {
+    height: 120px;
+    background-color: #e99de2;
+}
+
+
+.calculate {
+    background-color: #f8d2d2;
+}
+
+.calculate #display {
+    color: #6b1f1f90;
+}
+
+.calculate button.btn-numericvalue {
+    background-color: #b9bfe2;
+    color: #2b242490;
+}
+
+.calculate button#dlt {
+    background-color: #b9bfe2;
+    color: #52495cda;
+}
+
+
+.calculate button.isequal-button {
+    background-color: #b9bfe2;
+    color: #352323;
+  }
+
+.calculate button.btn {
+    background-color: #dab9e2;
+    color: #3c3a49;
+  }
+  
+ 
